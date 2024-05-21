@@ -17,6 +17,7 @@ Repository for storing solutions to algorithmic homework assignments for GoIT Py
 Для тестування коду розроблені тести на основі фреймворку "Unittest".
 Тести розміщені у теці "tests" у файлах, назви яких починаються з "test_" + назва файлу, у якому знаходяться тестовані функції.
 Приклад можливої файлової структури проєкту:
+```plaintext
 .
 ├── application
 │   ├── services.py  # Логіка для роботи з контактами
@@ -33,3 +34,4 @@ Repository for storing solutions to algorithmic homework assignments for GoIT Py
 │   ├── test_services.py
 │   └── test_storage.py
 └── main.py  # Точка входу
+```
